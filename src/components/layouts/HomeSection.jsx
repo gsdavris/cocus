@@ -12,7 +12,7 @@ import { BookOpenIcon, EyeOffIcon, GiftIcon, UserGroupIcon, TrendingUpIcon, Fing
 const HomeSection = () => {
   return (
     <>
-        <section className="pb-20 bg-indigo-100  ">
+        <section className="pb-20 bg-beige">
           <div className="lg:container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -27,7 +27,7 @@ const HomeSection = () => {
                 }}
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  -mt-24">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-red-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
                         <BookOpenIcon />
                     </div>
                     <h6 className="text-3xl font-light">Book A Table</h6>
@@ -51,7 +51,7 @@ const HomeSection = () => {
                 }}
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  md:-mt-24">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-indigo-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
                       <EyeOffIcon />
                     </div>
                     <h6 className="text-3xl font-light">Private Hire</h6>
@@ -75,7 +75,7 @@ const HomeSection = () => {
                 }}
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  md:-mt-24">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-green-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-beige">
                       <GiftIcon />
                     </div>
                     <h6 className="text-3xl font-light">Gift Cards</h6>
@@ -90,7 +90,7 @@ const HomeSection = () => {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-indigo-400 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <div className="text-brown p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <UserGroupIcon />
                 </div>
                 <h3 className="text-3xl mb-2 font-light leading-normal">
@@ -114,7 +114,7 @@ const HomeSection = () => {
               <AnimationOnView
               idValue='element1'
               className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-8 md:mt-0">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-indigo-400">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-brown">
                   <img
                     alt="..."
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -129,7 +129,7 @@ const HomeSection = () => {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-indigo-400  fill-current"
+                        className="text-brown  fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-3xl font-light text-white">
@@ -181,7 +181,7 @@ const HomeSection = () => {
               </AnimationOnView>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 my-6 shadow-lg rounded-full bg-indigo-300">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 my-6 shadow-lg rounded-full bg-gold">
                     <TrendingUpIcon />
                   </div>
                   <h3 className="text-3xl font-light">A growing company</h3>
@@ -194,7 +194,7 @@ const HomeSection = () => {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="w-12 h-12 items-center justify-center inline-block p-2 uppercase rounded-full text-white bg-indigo-300 mr-3">
+                          <span className="w-12 h-12 items-center justify-center inline-block p-2 uppercase rounded-full text-white bg-gold mr-3">
                             <FingerPrintIcon />
                           </span>
                         </div>
@@ -208,7 +208,7 @@ const HomeSection = () => {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="w-12 h-12 items-center justify-center inline-block p-2 uppercase rounded-full text-white bg-indigo-300 mr-3">
+                          <span className="w-12 h-12 items-center justify-center inline-block p-2 uppercase rounded-full text-white bg-gold mr-3">
                             <BadgeCheckIcon />
                           </span>
                         </div>
@@ -222,7 +222,7 @@ const HomeSection = () => {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="w-12 h-12 items-center justify-center inline-block p-2 uppercase rounded-full text-white bg-indigo-300 mr-3">
+                          <span className="w-12 h-12 items-center justify-center inline-block p-2 uppercase rounded-full text-white bg-gold mr-3">
                             <PaperAirplaneIcon />
                           </span>
                         </div>
@@ -347,7 +347,7 @@ const HomeSection = () => {
                         { getIconComponentByName( 'twitter' ) }
                       </button>
                       <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10 bg-indigo-700 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10 bg-blue-700 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
                         { getIconComponentByName( 'facebook' ) }
@@ -388,7 +388,7 @@ const HomeSection = () => {
                         { getIconComponentByName( 'twitter' ) }
                       </button>
                       <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10 bg-indigo-700 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10 bg-blue-700 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
                         { getIconComponentByName( 'facebook' ) }

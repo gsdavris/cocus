@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import {isEmpty} from 'lodash';
 import Link from 'next/link';
 const Next = ( {currentPageNo, pagesCount, postName} ) => {
@@ -15,7 +16,7 @@ const Next = ( {currentPageNo, pagesCount, postName} ) => {
 
 	return (
 		<Link href={paginationLink}>
-			<a className="border border-gray-300 px-3 py-2 ml-4 transition duration-500 ease-in-out hover:bg-indigo-700 hover:text-white">Next</a>
+			<a className="border border-gray-300 px-3 py-2 ml-4 transition duration-500 ease-in-out hover:bg-brown hover:text-white">Next</a>
 		</Link>
 	);
 };

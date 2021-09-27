@@ -18,7 +18,7 @@ const SearchForm = ( {searchQuery, setSearchQuery, handleSearchFormSubmit} ) => 
             <div className="absolute top-2 right-2">
                 <button
                 onClick={handleSearchFormSubmit}
-                className="h-10 w-20 text-white rounded-lg bg-indigo-500 focus:outline-none hover:bg-indigo-600"
+                className="h-10 w-20 text-white rounded-lg bg-gold focus:outline-none hover:bg-brown"
                 >
                     Search
                 </button>

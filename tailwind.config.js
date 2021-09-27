@@ -1,3 +1,7 @@
+/* eslint-disable linebreak-style */
+const colors = require( 'tailwindcss/colors' );
+
+
 module.exports = {
   future: {
 		removeDeprecatedGapUtilities: true,
@@ -9,6 +13,12 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      ...colors,
+      'gold': '#c6a866',
+      'brown': '#382b22',
+      'beige': '#ebe2d7',
+    },
     extend: {
       screens: {
         xm: '320px',

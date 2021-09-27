@@ -8,7 +8,7 @@ const Loading = ( { message, classes, contentColorClass, showSpinner, showMessag
     <div className={cx( classes, {'invisible': ! visible && hasVisibilityToggle} )}>
       <div className="inline-flex rounded-md shadow-sm ml-8">
         <div
-          className={cx( contentColorClass, 'inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-rose-600 hover:bg-rose-500 focus:border-rose-700 active:bg-rose-700 transition ease-in-out duration-150 cursor-not-allowed' )}
+          className={cx( contentColorClass, 'inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-brown hover:bg-gold focus:border-yellow-900 active:bg-yellow-900 transition ease-in-out duration-150 cursor-not-allowed' )}
         >
           { showSpinner ? (
             <svg className={cx( contentColorClass, 'animate-spin -ml-1 mr-3 h-5 w-5' )} xmlns="http://www.w3.org/2000/svg" fill="none"

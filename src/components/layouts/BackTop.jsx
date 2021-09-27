@@ -32,7 +32,7 @@ const BackTop = ( { props } ) => {
       <div className={open ? 'fixed bottom-16 right-5 lg:right-16' : 'hidden fixed bottom-16 right-5 lg:right-16'}>
         <button
             onClick={handleClick}
-            className='bg-indigo-500 hover:bg-indigo-600 shadow hover:shadow-lg rounded-full h-14 w-14 flex items-center justify-center focus:outline-none'
+            className='bg-gold hover:bg-brown shadow hover:shadow-lg rounded-full h-14 w-14 flex items-center justify-center focus:outline-none'
         >
             <ChevronUpIcon className='text-white' />
         </button>

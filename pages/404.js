@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import Link from 'next/link';
 import client from '../src/apollo/client';
 import Header from '../src/components/layouts/Header';
@@ -20,7 +21,7 @@ function Error404( {data} ) {
 							<div className="flex justify-center">
 								<Link href="/">
 									<a
-										className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Back
+										className="inline-flex text-white bg-gold border-0 py-2 px-6 focus:outline-none hover:bg-brown rounded text-lg">Back
                                         to Home
 									</a>
 								</Link>
@@ -28,7 +29,7 @@ function Error404( {data} ) {
 						</div>
 						<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
 							<img className="object-cover object-center rounded" alt="hero"
-								src="https://dummyimage.com/620x400"/>
+								src="https://api.cocus.gr/wp-content/uploads/2021/09/Untitled-design.jpg"/>
 						</div>
 					</div>
 				</section>

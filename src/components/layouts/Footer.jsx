@@ -12,7 +12,7 @@ const Footer = ( {footer, menu} ) => {
 
     return (
     <>
-        <footer className="relative bg-indigo-50 pt-8 pb-6">
+        <footer className="relative bg-beige pt-8 pb-6">
             <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: 'translateZ(0)' }}
@@ -27,7 +27,7 @@ const Footer = ( {footer, menu} ) => {
                     y="0"
                 >
                     <polygon
-                    className="text-indigo-50 fill-current"
+                    className="text-beige fill-current"
                     points="2560 0 2560 100 0 100"
                     ></polygon>
                 </svg>
@@ -44,7 +44,7 @@ const Footer = ( {footer, menu} ) => {
                                     key={item?.iconName}
                                     href={item?.iconUrl}
                                     target="_blank"
-                                    className="inline-flex bg-indigo-500 hover:bg-indigo-600 text-white text-center shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                    className="inline-flex bg-gold hover:bg-brown text-white text-center shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                                     >
                                         { getIconComponentByName( item?.iconName ) }
                                     </a>

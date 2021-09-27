@@ -6,12 +6,12 @@ const GoogleMap = () => {
   useEffect( () => {
     let google = window.google;
     let map = mapRef.current;
-    let lat = '40.748817';
-    let lng = '-73.985428';
-    const icon = 'https://cocus.gr/wp-content/uploads/2016/02/home_tea_pin-1.png';
+    let lat = '38.463322';
+    let lng = '23.592461';
+    const icon = 'https://api.cocus.gr/wp-content/uploads/2021/09/home_tea_pin-1.png';
     const myLatlng = new google.maps.LatLng( lat, lng );
     const mapOptions = {
-      zoom: 12,
+      zoom: 16,
       center: myLatlng,
       scrollwheel: false,
       zoomControl: true,
@@ -64,7 +64,7 @@ const GoogleMap = () => {
     const marker = new google.maps.Marker( {
       position: myLatlng,
       map: map,
-      // icon: icon,
+      icon: icon,
       animation: google.maps.Animation.DROP,
       title: 'Next Headless'
     } );

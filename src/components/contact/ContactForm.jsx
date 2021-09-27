@@ -66,11 +66,11 @@ const ContactForm = () => {
 
 
     return (
-        <section className="relative block py-24 bg-indigo-300">
+        <section className="relative block py-24 bg-brown">
             <div className="lg:container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
                 <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-100">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-beige">
                     <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-3xl text-gray-600 font-light">
                         Want to work with us?
@@ -96,7 +96,7 @@ const ContactForm = () => {
                             id="name"
                             value={name || ''}
                             onChange={handleChange( 'name' )}
-                            className="border-0 px-3 py-3 placeholder-indigo-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            className="border-0 px-3 py-3 placeholder-gold text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ring-gold w-full ease-linear transition-all duration-150"
                             placeholder="Full Name"
                             />
                         </div>
@@ -112,7 +112,7 @@ const ContactForm = () => {
                             id="email"
                             value={email || ''}
                             onChange={handleChange( 'email' )}
-                            className="border-0 px-3 py-3 placeholder-indigo-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            className="border-0 px-3 py-3 placeholder-gold text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ring-gold w-full ease-linear transition-all duration-150"
                             placeholder="Email"
                             />
                         </div>
@@ -129,13 +129,13 @@ const ContactForm = () => {
                             id="message"
                             value={message || ''}
                             onChange={handleChange( 'message' )}
-                            className="border-0 px-3 py-3 placeholder-indigo-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                            className="border-0 px-3 py-3 placeholder-gold text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ring-gold w-full"
                             placeholder="Type a message..."
                             />
                         </div>
                         <div className="text-center mt-6">
                             <button
-                            className="bg-indigo-500 text-white hover:bg-indigo-600 active:bg-indigo-600 text-sm font-light uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                            className="bg-gold text-white hover:bg-brown active:bg-brown text-sm font-light uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                             disabled={! name || ! email || ! message ? true : false}
                             type="submit"
                             >
