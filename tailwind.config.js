@@ -19,12 +19,7 @@ module.exports = {
       'brown': '#382b22',
       'beige': '#ebe2d7',
     },
-    textColor: {
-      ...colors,
-      'gold': '#c6a866',
-      'brown': '#382b22',
-      'beige': '#ebe2d7',
-    },
+    textColor: theme => theme( 'colors' ),
     extend: {
       screens: {
         xm: '320px',
