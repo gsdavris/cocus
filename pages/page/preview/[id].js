@@ -12,7 +12,11 @@ import {
 const PagePreview = ( { data } ) => {
 	return (
 		<Layout data={data}>
-			<div dangerouslySetInnerHTML={{__html: sanitize( data?.page?.content ?? {} )}}/>
+			<section className='relative py-40'>
+				<div className="lg:container mx-auto  px-4">
+					<div dangerouslySetInnerHTML={{__html: sanitize( data?.page?.content ?? {} )}}/>
+				</div>
+			</section>
 		</Layout>
 	);
 };
