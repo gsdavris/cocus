@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { useState } from 'react';
 import { isEmpty } from 'lodash';
 import validateAndSanitizeLoginForm from '../src/utils/validator/login';
@@ -81,42 +82,46 @@ const Login = ( { data } ) => {
 	const { username, password } = loginFields;
 	return (
 		<Layout data={data}>
-			<div className="login-form bg-gray-100 rounded-lg p-8 md:ml-auto mt-10 md:mt-12 w-5/12 m-auto">
-				<h4 className="text-gray-900 text-lg font-medium title-font mb-5 block">Login</h4>
-				{! isEmpty( errorMessage ) && (
-					<div
-						className="text-red-600"
-						dangerouslySetInnerHTML={{ __html: sanitize( errorMessage ) }}
-					/>
-				)}
-				<form onSubmit={onFormSubmit} className="mb-4">
-					<label className="leading-7 text-sm text-gray-600">
-                    Username:
-						<input
-							type="text"
-							className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-							name="username"
-							value={username}
-							onChange={handleOnChange}
-						/>
-					</label>
-					<br />
-					<label className="leading-7 text-sm text-gray-600">
-                    Password:
-						<input
-							type="password"
-							className="mb-8 w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-							name="password"
-							value={password}
-							onChange={handleOnChange}
-						/>
-					</label>
-					<button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">
-                    Login
-					</button>
-					{loading ? <p>Loading...</p> : null  }
-				</form>
-			</div>
+			<section className='relative py-40'>
+				<div className="lg:container mx-auto  px-4">
+					<div className="login-form bg-gray-100 rounded-lg p-8 md:ml-auto mt-10 md:mt-12 w-5/12 m-auto">
+						<h4 className="text-gray-900 text-lg font-medium title-font mb-5 block">Login</h4>
+						{! isEmpty( errorMessage ) && (
+							<div
+								className="text-red-600"
+								dangerouslySetInnerHTML={{ __html: sanitize( errorMessage ) }}
+							/>
+						)}
+						<form onSubmit={onFormSubmit} className="mb-4">
+							<label className="leading-7 text-sm text-gray-600">
+							Username:
+								<input
+									type="text"
+									className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+									name="username"
+									value={username}
+									onChange={handleOnChange}
+								/>
+							</label>
+							<br />
+							<label className="leading-7 text-sm text-gray-600">
+							Password:
+								<input
+									type="password"
+									className="mb-8 w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+									name="password"
+									value={password}
+									onChange={handleOnChange}
+								/>
+							</label>
+							<button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">
+							Login
+							</button>
+							{loading ? <p>Loading...</p> : null  }
+						</form>
+					</div>
+				</div>
+			</section>
 		</Layout>
 	);
 };

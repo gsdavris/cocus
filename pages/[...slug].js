@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import client from '../src/apollo/client';
 import {GET_PAGES_URI} from '../src/queries/pages/get-pages';
 import {isEmpty} from 'lodash';
