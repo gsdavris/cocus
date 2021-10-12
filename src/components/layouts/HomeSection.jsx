@@ -30,7 +30,7 @@ const HomeSection = () => {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
                         <BookOpenIcon />
                     </div>
-                    <h6 className="text-3xl font-light">Book A Table</h6>
+                    <h6 className="text-3xl font-light">Wholesale</h6>
                     <p className="mt-2 mb-4 text-gray-500">
                       Divide details about your product or agency work into
                       parts. A paragraph describing a feature will be enough.
@@ -54,7 +54,7 @@ const HomeSection = () => {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
                       <EyeOffIcon />
                     </div>
-                    <h6 className="text-3xl font-light">Private Hire</h6>
+                    <h6 className="text-3xl font-light">Retail Sale</h6>
                     <p className="mt-2 mb-4 text-gray-500">
                       Keep you user engaged by providing meaningful information.
                       Remember that by this time, the user is curious.
@@ -78,7 +78,7 @@ const HomeSection = () => {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-beige">
                       <GiftIcon />
                     </div>
-                    <h6 className="text-3xl font-light">Gift Cards</h6>
+                    <h6 className="text-3xl font-light">Private Label</h6>
                     <p className="mt-2 mb-4 text-gray-500">
                       Write a few lines about each one. A paragraph describing a
                       feature will be enough. Keep you user engaged!
