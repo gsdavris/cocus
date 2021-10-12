@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import DOMPurify from 'dompurify';
 
 export const sanitize = ( content ) => {
