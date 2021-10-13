@@ -31,7 +31,7 @@ const HomeSection = () => {
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
                           <BriefcaseIcon />
                       </div>
-                      <h6 className="text-3xl font-light">Wholesale</h6>
+                      <h6 className="text-3xl text-brown font-light">Wholesale</h6>
                       <p className="mt-2 mb-4 text-gray-500">
                         Συνεργασία και χονδρική για χώρους μαζικής εστίασης, ξενοδοχεία,
                         markets, bakery και ζαχαροπλαστεία.
@@ -42,7 +42,7 @@ const HomeSection = () => {
               </div>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <Link href="/contact">
+                <a href="https://e-cafe.gr/" target="_blank"  rel="noopener">
                   <motion.div
                   whileHover={{
                     position: 'relative',
@@ -57,14 +57,14 @@ const HomeSection = () => {
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
                         <ShoppingCartIcon />
                       </div>
-                      <h6 className="text-3xl font-light">Retail Sale</h6>
+                      <h6 className="text-3xl text-brown font-light">Retail Sale</h6>
                       <p className="mt-2 mb-4 text-gray-500">
                         Επισκεφτείτε το καφεκοπτείο ή το ηλεκτρονικό μας κατάστημα
                         και επιλέξτε τη γεύση που σας ταιριάζει.
                       </p>
                     </div>
                   </motion.div>
-                </Link>
+                </a>
               </div>
 
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
@@ -83,10 +83,10 @@ const HomeSection = () => {
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-beige">
                         <FingerPrintIcon />
                       </div>
-                      <h6 className="text-3xl font-light">Private Label</h6>
+                      <h6 className="text-3xl text-brown font-light">Private Label</h6>
                       <p className="mt-2 mb-4 text-gray-500">
-                        Δημιουργήστε τον δικό σας καφέ! Η εταιρεία μας αναλαμβάνει
-                        και σας προσφέρει προϊόντα με το δικό σας εμπορικό σήμα.
+                        Δημιουργήστε τον δικό σας καφέ! Καβουρντίζουμε
+                        και σας προσφέρουμε προϊόντα με το δικό σας εμπορικό σήμα.
                       </p>
                     </div>
                   </motion.div>
