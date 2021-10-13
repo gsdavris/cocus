@@ -16,75 +16,81 @@ const HomeSection = () => {
           <div className="lg:container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <motion.div
-                whileHover={{
-                  position: 'relative',
-                  zIndex: 1,
-                  scale: 1.1,
-                  transition: {
-                    duration: .15
-                  }
-                }}
-                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  -mt-24">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
-                        <BriefcaseIcon />
+                <Link href="/contact">
+                  <motion.div
+                  whileHover={{
+                    position: 'relative',
+                    zIndex: 1,
+                    scale: 1.1,
+                    transition: {
+                      duration: .15
+                    }
+                  }}
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg cursor-pointer -mt-24">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
+                          <BriefcaseIcon />
+                      </div>
+                      <h6 className="text-3xl font-light">Wholesale</h6>
+                      <p className="mt-2 mb-4 text-gray-500">
+                        Συνεργασία και χονδρική για χώρους μαζικής εστίασης, ξενοδοχεία,
+                        markets, bakery και ζαχαροπλαστεία.
+                      </p>
                     </div>
-                    <h6 className="text-3xl font-light">Wholesale</h6>
-                    <p className="mt-2 mb-4 text-gray-500">
-                      Συνεργασία και χονδρική για χώρους μαζικής εστίασης, ξενοδοχεία,
-                      markets, bakery και ζαχαροπλαστεία.
-                    </p>
-                  </div>
-                </motion.div>
+                  </motion.div>
+                </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <motion.div
-                whileHover={{
-                  position: 'relative',
-                  zIndex: 1,
-                  scale: 1.1,
-                  transition: {
-                    duration: .15
-                  }
-                }}
-                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  md:-mt-24">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
-                      <ShoppingCartIcon />
+                <Link href="/contact">
+                  <motion.div
+                  whileHover={{
+                    position: 'relative',
+                    zIndex: 1,
+                    scale: 1.1,
+                    transition: {
+                      duration: .15
+                    }
+                  }}
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg cursor-pointer md:-mt-24">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
+                        <ShoppingCartIcon />
+                      </div>
+                      <h6 className="text-3xl font-light">Retail Sale</h6>
+                      <p className="mt-2 mb-4 text-gray-500">
+                        Επισκεφτείτε το καφεκοπτείο ή το ηλεκτρονικό μας κατάστημα
+                        και επιλέξτε τη γεύση που σας ταιριάζει.
+                      </p>
                     </div>
-                    <h6 className="text-3xl font-light">Retail</h6>
-                    <p className="mt-2 mb-4 text-gray-500">
-                      Επισκεφτείτε το καφεκοπτείο ή το ηλεκτρονικό μας κατάστημα
-                      και επιλέξτε τη γεύση που σας ταιριάζει.
-                    </p>
-                  </div>
-                </motion.div>
+                  </motion.div>
+                </Link>
               </div>
 
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <motion.div
-                whileHover={{
-                  position: 'relative',
-                  zIndex: 1,
-                  scale: 1.1,
-                  transition: {
-                    duration: .15
-                  }
-                }}
-                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  md:-mt-24">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-beige">
-                      <FingerPrintIcon />
+                <Link href="/contact">
+                  <motion.div
+                  whileHover={{
+                    position: 'relative',
+                    zIndex: 1,
+                    scale: 1.1,
+                    transition: {
+                      duration: .15
+                    }
+                  }}
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg cursor-pointer md:-mt-24">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-beige">
+                        <FingerPrintIcon />
+                      </div>
+                      <h6 className="text-3xl font-light">Private Label</h6>
+                      <p className="mt-2 mb-4 text-gray-500">
+                        Δημιουργήστε τον δικό σας καφέ! Η εταιρεία μας αναλαμβάνει
+                        και σας προσφέρει προϊόντα με το δικό σας εμπορικό σήμα.
+                      </p>
                     </div>
-                    <h6 className="text-3xl font-light">Private Label</h6>
-                    <p className="mt-2 mb-4 text-gray-500">
-                      Δημιουργήστε τον δικό σας καφέ! Η εταιρεία μας αναλαμβάνει
-                      και σας προσφέρει προϊόντα με το δικό σας εμπορικό σήμα.
-                    </p>
-                  </div>
-                </motion.div>
+                  </motion.div>
+                </Link>
               </div>
             </div>
 
