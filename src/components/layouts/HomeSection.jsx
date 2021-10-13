@@ -7,7 +7,7 @@ import {
   motion,
 } from 'framer-motion';
 import { getIconComponentByName } from '../../utils/icons-map';
-import { BookOpenIcon, EyeOffIcon, GiftIcon, UserGroupIcon, TrendingUpIcon, FingerPrintIcon, BadgeCheckIcon, PaperAirplaneIcon } from '@heroicons/react/solid';
+import { ShoppingCartIcon, BriefcaseIcon, UserGroupIcon, TrendingUpIcon, FingerPrintIcon, BadgeCheckIcon, PaperAirplaneIcon } from '@heroicons/react/solid';
 
 const HomeSection = () => {
   return (
@@ -28,7 +28,7 @@ const HomeSection = () => {
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  -mt-24">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
-                        <BookOpenIcon />
+                        <BriefcaseIcon />
                     </div>
                     <h6 className="text-3xl font-light">Wholesale</h6>
                     <p className="mt-2 mb-4 text-gray-500">
@@ -52,7 +52,7 @@ const HomeSection = () => {
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  md:-mt-24">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
-                      <EyeOffIcon />
+                      <ShoppingCartIcon />
                     </div>
                     <h6 className="text-3xl font-light">Retail</h6>
                     <p className="mt-2 mb-4 text-gray-500">
@@ -76,7 +76,7 @@ const HomeSection = () => {
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  md:-mt-24">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-beige">
-                      <GiftIcon />
+                      <FingerPrintIcon />
                     </div>
                     <h6 className="text-3xl font-light">Private Label</h6>
                     <p className="mt-2 mb-4 text-gray-500">
