@@ -181,10 +181,10 @@ const HomeSection = () => {
               </AnimationOnView>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 my-6 shadow-lg rounded-full bg-gold">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 my-6 shadow-lg rounded-full bg-gold transform transition-all hover:scale-125">
                     <TrendingUpIcon />
                   </div>
-                  <h3 className="text-3xl font-light">A growing company</h3>
+                  <h3 className="text-3xl text-gold font-light">A growing company</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-500">
                     The extension comes with three pre-built pages to help you
                     get started faster. You can change the text and images and
