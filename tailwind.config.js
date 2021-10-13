@@ -9,11 +9,14 @@ module.exports = {
     './pages/**/*.{js,jsx,ts,tsx,html}'
     ],
     safelist: [
-      'bg-blue-500',
+      'bg-gold',
+      'bg-brown',
+      'bg-beige',
       'text-gold',
       'text-brown',
       'text-beige',
       'transform',
+      'transition',
       'transition-all',
       'hover:scale-125',
       'hover:scale-110',
