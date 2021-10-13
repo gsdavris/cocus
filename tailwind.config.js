@@ -3,10 +3,22 @@ module.exports = {
 		removeDeprecatedGapUtilities: true,
 		purgeLayersByDefault: true,
 	},
-  purge: [
+  purge: {
+    content: [
     './src/components/**/*.{js,jsx,ts,tsx,html}',
     './pages/**/*.{js,jsx,ts,tsx,html}'
-  ],
+    ],
+    safelist: [
+      'bg-blue-500',
+      'text-gold',
+      'text-brown',
+      'text-beige',
+      'transform',
+      'transition-all',
+      'hover:scale-125',
+      'hover:scale-110',
+    ]
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
