@@ -17,6 +17,7 @@ module.exports = {
       'transition-all',
       'hover:scale-125',
       'hover:scale-110',
+      'hover:scale-150',
     ]
   },
   darkMode: false, // or 'media' or 'class'
