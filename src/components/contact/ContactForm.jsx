@@ -76,8 +76,7 @@ const ContactForm = () => {
                         Want to work with us?
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-gray-500">
-                        Complete this form and we will get back to you in 24
-                        hours.
+                        Συμπληρώστε την φόρμα και θα σας απαντήσουμε μέσα σε 24 ώρες.
                     </p>
                     <ErrorMessage text={responseData?.message} classes={ 'success' === responseData?.type ? 'text-green-400' : 'text-red-400'} />
                     <form
@@ -97,7 +96,7 @@ const ContactForm = () => {
                             value={name || ''}
                             onChange={handleChange( 'name' )}
                             className="border-0 px-3 py-3 placeholder-gold text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ring-gold w-full ease-linear transition-all duration-150"
-                            placeholder="Full Name"
+                            placeholder="Ονοματεπώνυμο"
                             />
                         </div>
                         <div className="relative w-full mb-3">
@@ -130,7 +129,7 @@ const ContactForm = () => {
                             value={message || ''}
                             onChange={handleChange( 'message' )}
                             className="border-0 px-3 py-3 placeholder-gold text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring ring-gold w-full"
-                            placeholder="Type a message..."
+                            placeholder="Γράψτε το μήνυμά σας..."
                             />
                         </div>
                         <div className="text-center mt-6">

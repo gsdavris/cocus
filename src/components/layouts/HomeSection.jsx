@@ -103,9 +103,7 @@ const HomeSection = () => {
                   Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                  COCUS Πρόγραμμα συνεργασίας.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-600">
                   The kit comes with three pre-built pages to help you get
@@ -113,8 +111,8 @@ const HomeSection = () => {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <AnimationLink path="/about" className="inline font-semibold text-lg text-gray-700 my-8">
-                  Check Notus NextJS!
+                <AnimationLink path="/contact" className="inline font-semibold text-lg text-gray-700 my-8">
+                  Επικοινωνήστε μαζί μας!
                 </AnimationLink>
               </div>
               <AnimationOnView
