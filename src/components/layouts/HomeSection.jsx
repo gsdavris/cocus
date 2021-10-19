@@ -180,7 +180,7 @@ const HomeSection = () => {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="https://api.cocus.gr/wp-content/uploads/2021/10/969.jpg"
                 />
               </AnimationOnView>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -265,7 +265,7 @@ const HomeSection = () => {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/team-1-800x800.jpg"
+                    src="https://api.cocus.gr/wp-content/uploads/2021/10/68260570_962938130712779_5158958752807780352_n.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -300,7 +300,7 @@ const HomeSection = () => {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/team-2-800x800.jpg"
+                    src="https://api.cocus.gr/wp-content/uploads/2021/10/barotas.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
