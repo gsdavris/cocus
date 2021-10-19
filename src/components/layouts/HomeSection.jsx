@@ -269,7 +269,7 @@ const HomeSection = () => {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-3xl font-semibold">Ryan Tompson</h5>
+                    <h5 className="text-3xl font-semibold">Στέλιος Γκίκας</h5>
                     <p className="mt-1 text-sm text-gray-400 uppercase font-light">
                       Web Developer
                     </p>
@@ -304,7 +304,7 @@ const HomeSection = () => {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-3xl font-semibold">Romina Hadid</h5>
+                    <h5 className="text-3xl font-semibold">Γιώργος Μπαρώτας</h5>
                     <p className="mt-1 text-sm text-gray-400 uppercase font-light">
                       Marketing Specialist
                     </p>
