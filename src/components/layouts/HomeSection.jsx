@@ -188,7 +188,7 @@ const HomeSection = () => {
                   <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 my-6 shadow-lg rounded-full bg-gold transform transition-all hover:scale-125">
                     <TrendingUpIcon />
                   </div>
-                  <h3 className="text-3xl text-gold font-light">A growing company</h3>
+                  <h3 className="text-3xl text-gold font-light">High-end Εξοπλισμός</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-500">
                     The extension comes with three pre-built pages to help you
                     get started faster. You can change the text and images and
@@ -204,7 +204,7 @@ const HomeSection = () => {
                         </div>
                         <div>
                           <h4 className="text-gray-500">
-                            Carefully crafted components
+                            Μύλοι άλεσης υψηλής απόδοσης
                           </h4>
                         </div>
                       </div>
@@ -218,7 +218,7 @@ const HomeSection = () => {
                         </div>
                         <div>
                           <h4 className="text-gray-500">
-                            Amazing page examples
+                            Μηχανές espresso τελευταίας τεχνολογίας
                           </h4>
                         </div>
                       </div>
@@ -232,7 +232,7 @@ const HomeSection = () => {
                         </div>
                         <div>
                           <h4 className="text-gray-500">
-                            Dynamic components
+                            Αναλώσιμα υψηλής αισθητικής
                           </h4>
                         </div>
                       </div>
@@ -252,7 +252,7 @@ const HomeSection = () => {
           <div className="lg:container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-light">Here are our heroes</h2>
+                <h2 className="text-4xl text-gold font-light">Cocus Family</h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-500">
                   According to the National Oceanic and Atmospheric
                   Administration, Ted, Scambos, NSIDClead scentist, puts the
@@ -265,13 +265,13 @@ const HomeSection = () => {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="https://api.cocus.gr/wp-content/uploads/2021/10/68260570_962938130712779_5158958752807780352_n.jpg"
+                    src="https://api.cocus.gr/wp-content/uploads/2021/10/gikas.jpg"
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-3xl font-semibold">Στέλιος Γκίκας</h5>
                     <p className="mt-1 text-sm text-gray-400 uppercase font-light">
-                      Web Developer
+                      Founder and CEO
                     </p>
                     <div className="mt-6">
                       <button
@@ -306,7 +306,7 @@ const HomeSection = () => {
                   <div className="pt-6 text-center">
                     <h5 className="text-3xl font-semibold">Γιώργος Μπαρώτας</h5>
                     <p className="mt-1 text-sm text-gray-400 uppercase font-light">
-                      Marketing Specialist
+                      Coffee Specialist
                     </p>
                     <div className="mt-6">
                       <button
