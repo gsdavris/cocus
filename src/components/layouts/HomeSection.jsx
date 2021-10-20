@@ -106,6 +106,8 @@ const HomeSection = () => {
                   COCUS Πρόγραμμα συνεργασίας.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-600">
+                  Εξοπλισμός και τεχνική υποστήριξη, συνεχής εκπαίδευση
+                  και υποστήριξη
                   The kit comes with three pre-built pages to help you get
                   started faster. You can change the text and images and you're
                   good to go. Just make sure you enable them first via
@@ -254,9 +256,8 @@ const HomeSection = () => {
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl text-gold font-light">Cocus Family</h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Στην COCUS είναι οι άνθρωποι που κάνουν τη διαφορά.
+                  Άνθρωποι με το ίδιο πάθος και προσανατολισμό στην εξέλιξη και ανάπτυξη του καφέ.
                 </p>
               </div>
             </div>
