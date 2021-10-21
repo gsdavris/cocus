@@ -51,7 +51,7 @@ const Header = ( {header, menu, slug} ) => {
                   <a>
                     <span className="sr-only">{header?.siteTitle}</span>
                     <img
-                      className="h-10 w-auto sm:h-10"
+                      className="h-12 w-auto sm:h-12"
                       src={header?.siteLogoUrl}
                       alt=""
                     />
