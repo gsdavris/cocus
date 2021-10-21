@@ -47,7 +47,6 @@ const Layout = ( {children, isPost, data} ) => {
 						width="400"
 						height="225"
 						layout="fill"
-						className="rounded-lg"
 						containerClassNames="absolute top-0 w-full h-full bg-center bg-cover"
 						title={seo?.title ?? ''}
 						/>
