@@ -57,7 +57,7 @@ const Header = ( {header, menu, slug} ) => {
                     alt=""
                     /> :
                     <img
-                      className="h-12 w-auto sm:h-12"
+                      className="h-12 w-auto"
                       src={header?.siteLogoUrl}
                       alt=""
                     />
