@@ -10,6 +10,7 @@ import NavMobile from '../navs/NavMobile';
 import {isEmpty} from 'lodash';
 import PropTypes from 'prop-types';
 import { withRouter } from 'next/router';
+import { collectProjectingChildren } from 'framer-motion/types/render/dom/projection/utils';
 
 
 const Header = ( {header, menu, slug} ) => {
@@ -50,11 +51,18 @@ const Header = ( {header, menu, slug} ) => {
                 <Link href="/">
                   <a>
                     <span className="sr-only">{header?.siteTitle}</span>
+                    { 'white' === color.text ?
+                    <img
+                    className="h-14 w-auto sm:h-14"
+                    src="https://api.cocus.gr/wp-content/uploads/2021/09/logo_white-01.png"
+                    alt=""
+                    /> :
                     <img
                       className="h-12 w-auto sm:h-12"
                       src={header?.siteLogoUrl}
                       alt=""
                     />
+                  }
                   </a>
                 </Link>
                 <span className="sr-only">{header?.siteTagLine}</span>
