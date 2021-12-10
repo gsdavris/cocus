@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { useEffect } from 'react';
 import '../src/styles/style.scss';
 import { ApolloProvider } from '@apollo/client';

@@ -258,72 +258,8 @@ const HomeSection = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="https://api.cocus.gr/wp-content/uploads/2021/10/gikas.jpg"
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-3xl font-semibold">Στέλιος Γκίκας</h5>
-                    <p className="mt-1 text-sm text-gray-400 uppercase font-light">
-                      Founder and CEO
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10 bg-blue-400 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        { getIconComponentByName( 'twitter' ) }
-                      </button>
-                      <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-blue-600 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        { getIconComponentByName( 'facebook' ) }
-                      </button>
-                      <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-pink-500 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        { getIconComponentByName( 'instagram' ) }
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="https://api.cocus.gr/wp-content/uploads/2021/10/barotas.jpg"
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-3xl font-semibold">Γιώργος Μπαρώτας</h5>
-                    <p className="mt-1 text-sm text-gray-400 uppercase font-light">
-                      Coffee Specialist
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-red-600 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        { getIconComponentByName( 'youtube' ) }
-                      </button>
-                      <button
-                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-blue-600 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        { getIconComponentByName( 'facebook' ) }
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div className="flex flex-wrap justify-center">
+              {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -357,8 +293,72 @@ const HomeSection = () => {
                     </div>
                   </div>
                 </div>
+              </div> */}
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src="https://api.cocus.gr/wp-content/uploads/2021/10/gikas.jpg"
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-3xl font-semibold">Στέλιος Γκίκας</h5>
+                    <p className="mt-1 text-sm text-gray-400 uppercase font-light">
+                      Founder and CEO
+                    </p>
+                    <div className="mt-6">
+                      {/* <button
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10 bg-blue-400 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        { getIconComponentByName( 'twitter' ) }
+                      </button> */}
+                      <button
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-blue-600 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        { getIconComponentByName( 'facebook' ) }
+                      </button>
+                      <button
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-pink-500 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        { getIconComponentByName( 'instagram' ) }
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src="https://api.cocus.gr/wp-content/uploads/2021/10/barotas.jpg"
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-3xl font-semibold">Γιώργος Μπαρώτας</h5>
+                    <p className="mt-1 text-sm text-gray-400 uppercase font-light">
+                      Coffee Specialist
+                    </p>
+                    <div className="mt-6">
+                    <button
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-blue-600 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        { getIconComponentByName( 'facebook' ) }
+                      </button>
+                      <button
+                        className="inline-flex items-center justify-center align-center p-2 w-10 h-10  bg-pink-500 text-white rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        { getIconComponentByName( 'instagram' ) }
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -398,7 +398,7 @@ const HomeSection = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
