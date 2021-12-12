@@ -31,7 +31,7 @@ const HomeSection = () => {
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-gold">
                           <BriefcaseIcon />
                       </div>
-                      <h6 className="text-3xl text-brown font-light">Wholesale</h6>
+                      <h6 className="text-3xl text-brown font-light">Cocus Wholesale</h6>
                       <p className="mt-2 mb-4 text-gray-500">
                         Συνεργασία και χονδρική για χώρους μαζικής εστίασης, ξενοδοχεία,
                         markets, bakery και ζαχαροπλαστεία.
@@ -57,7 +57,7 @@ const HomeSection = () => {
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-brown">
                         <ShoppingCartIcon />
                       </div>
-                      <h6 className="text-3xl text-brown font-light">Retail Sale</h6>
+                      <h6 className="text-3xl text-brown font-light">Cocus Retail</h6>
                       <p className="mt-2 mb-4 text-gray-500">
                         Επισκεφτείτε το καφεκοπτείο ή το ηλεκτρονικό μας κατάστημα
                         και επιλέξτε τη γεύση που σας ταιριάζει.
