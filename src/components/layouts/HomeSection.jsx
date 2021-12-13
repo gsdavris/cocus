@@ -139,9 +139,9 @@ const HomeSection = () => {
                       Top Notch Services
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      Η Cocus βρίσκεται δίπλα σε κάθε συνεργάτη της 
+                      στον χώρο της καφεστίασης καλύπτοντας όλες του 
+                      τις ανάγκες.
                     </p>
                   </blockquote>
                 </div>
@@ -189,9 +189,8 @@ const HomeSection = () => {
                   </div>
                   <h3 className="text-3xl text-gold font-light">High-end Εξοπλισμός</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Εξειδικευμένο τμήμα service & συντήρησης μηχανημάτων. 
+                    Τεχνική υποστήριξη για όλες τις μηχανές espresso και τους μύλους άλεσης που παρέχουμε.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
