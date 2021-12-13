@@ -70,8 +70,8 @@ const GoogleMap = () => {
     } );
 
     const contentString =
-      '<div class="info-window-content"><h2>Next Headless</h2>' +
-      '<p>A simple and powerful framework that produces unmatched results.</p></div>';
+      '<div class="info-window-content"><h2>Cocus Espresso Roasters</h2>' +
+      '<p>Α. Δούνα 12, 34132 Χαλκίδα</p></div>';
 
     const infowindow = new google.maps.InfoWindow( {
       content: contentString
