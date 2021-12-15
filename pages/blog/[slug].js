@@ -42,7 +42,7 @@ export async function getStaticProps( { params } ) {
 		props: {
 			data: data || {}
 		},
-		revalidate: 1,
+		// revalidate: 1,
 	};
 
 	return handleRedirectsAndReturnData( defaultProps, data, errors, 'post' );

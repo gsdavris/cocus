@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import client from '../src/apollo/client';
 import Layout from '../src/components/layouts/Layout';
 import HomeSection from '../src/components/layouts/HomeSection';
@@ -28,7 +29,7 @@ export async function getStaticProps( context ) {
     props: {
       data: data || {}
     },
-    revalidate: 1
+    // revalidate: 1
   };
 
   return  handleRedirectsAndReturnData( defaultProps, data, errors, 'page' );

@@ -24,7 +24,6 @@ const Layout = ( {children, isPost, data} ) => {
 	const uri = isPost ? ( post?.uri ?? {} ) : ( page?.uri ?? {} );
 
     return (
-		<>
         <div>
             <Seo seo={seo} uri={uri} />
 			<Head>
@@ -80,7 +79,6 @@ const Layout = ( {children, isPost, data} ) => {
 			</main>
 			<Footer footer={footer} menu={footerMenus?.edges} />
         </div>
-		</>
     );
 };
 

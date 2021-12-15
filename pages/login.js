@@ -140,7 +140,7 @@ export async function getStaticProps( context ) {
 		props: {
 			data: data || {}
 		},
-		revalidate: 1,
+		// revalidate: 1,
 	};
 
 	return handleRedirectsAndReturnData( defaultProps, data, errors, 'page' );
